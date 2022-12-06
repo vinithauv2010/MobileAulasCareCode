@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+    <class name="Test.BaseTest"/>
+      <!--
+       <class name="Test.ScheduleModuleSuperAdmin"/>
+      <class name="AppiumGestures.AppiumTest"/>
+      <class name="Test.AulasWalletModule"/>
+      <class name="AppiumGestures.eCommerceTest"/>
+      <class name="Test.DigitalLibraryTest"/>
+      <class name="AppiumGestures.BrowserBaseTest"/>
+      <class name="AppiumGestures.AppiumGestures"/>
+      <class name="AppiumGestures.MobileBrowserTest"/>
+      <class name="Andriod_BaseTest.AulasBaseTest"/>
+      <class name="Test.AulasCareModule"/> 
+     <class name="Test.NotificationModule"/>
+     -->
+      <class name="Test.AulasCareModule"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
